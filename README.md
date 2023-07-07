@@ -1,4 +1,4 @@
-# - LLMs
-# - OpenAI
-# - GPT4
-# - ChatGPT
+# LLMs
+# OpenAI
+# GPT4
+# ChatGPT
