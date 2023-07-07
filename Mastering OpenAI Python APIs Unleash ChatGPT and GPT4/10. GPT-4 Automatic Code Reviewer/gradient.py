@@ -85,7 +85,7 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def main() -> int:
+def main() -> None:
     """
     Main function to parse command-line arguments and generate the gradient.
     Returns:
@@ -111,7 +111,7 @@ def main() -> int:
         color1 = parse_color_string(args.color1)
         color2 = parse_color_string(args.color2)
     except ValueError as e:
-        print(e)
+        print(e, file=sys.stderr)
         return 1
 
     gradient = gradient_between_colors(color1, color2, args.n)
