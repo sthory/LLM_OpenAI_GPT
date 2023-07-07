@@ -1,1 +1,1 @@
-
+# Color palette Generator Project
